@@ -1,0 +1,332 @@
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+select,
+td,
+textarea,
+th,
+ul {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+.form-container,
+.link-container,
+[class*=container] {
+  min-width: 10px;
+}
+
+.link-container,
+label.label-container,
+.responsive-picture,
+.responsive-picture picture {
+  display: block;
+}
+
+.responsive-picture,
+.responsive-picture img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.placeholder,
+.placeholder-hero {
+  background-color: lightgrey;
+  padding: 10px 0;
+}
+
+.placeholder {
+  text-align: center;
+}
+
+.placeholder-hero {
+  text-align: left;
+  padding-left: 20px;
+}
+
+h3.smallhero-header {
+  font-size: 1.25em;
+  color: #464646;
+}
+
+h3.smallhero-tagline,
+p.hero-tagline {
+  color: #646464;
+  font-style: normal;
+  padding: 0;
+}
+
+h1.hero-header {
+  color: #464646;
+}
+
+code {
+  font-family: Consolas, monaco, monospace;
+}
+
+.social-element {
+  display: inline-block;
+  text-align: center;
+}
+
+.social-element a.social-label {
+  text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  display: block;
+}
+
+.social-image {
+  background-color: #525252;
+  border-radius: 3px;
+  max-width: 32px;
+  display: inline-block;
+}
+
+.social-image img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+a.glyph,
+span.glyph {
+  display: block;
+  text-decoration: none;
+}
+
+a.glyph i,
+span.glyph i {
+  line-height: 1;
+}
+
+.image-for-button {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  max-width: 24px;
+  display: inline-block;
+  vertical-align: inherit;
+}
+
+button.button-glyph,
+button.button-image {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a.glyph-for-button,
+span.glyph-for-button {
+  font-size: 22px;
+  text-decoration: none;
+}
+
+a.glyph-for-button i,
+span.glyph-for-button i {
+  line-height: 1;
+}
+
+a[class*=link-button] .image-for-button {
+  vertical-align: middle;
+}
+
+button[data-coffeebuilder-button][data-disabled],
+button[disabled] {
+  opacity: 0.25;
+  cursor: auto;
+}
+
+.responsive-video,
+.responsive-video embed,
+.responsive-video iframe,
+.responsive-video object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  max-width: 100%;
+}
+
+.responsive-video.square {
+  padding-bottom: 120%;
+  max-width: initial;
+}
+
+video {
+  width: 50%;
+  background-color: #000;
+}
+
+audio {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0 20px 30px;
+  height: 95px;
+  width: 50%;
+  margin: 10px;
+}
+
+.responsive-map,
+.responsive-map embed,
+.responsive-map iframe,
+.responsive-map object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.responsive-map {
+  position: relative;
+  height: 350px;
+  min-height: 50px;
+  background-color: #dcdcdc;
+}
+
+.rule {
+  padding: 5px 0;
+  width: 100%;
+  margin: 7px 0;
+}
+
+.rule hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+form.paypal-button,
+form.paypal-image {
+  display: inline-block;
+  padding: 0;
+  overflow: hidden;
+}
+
+form.paypal-button {
+  background-color: silver;
+}
+
+form.paypal-button button {
+  padding: 0.5em 1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  background: 0 0;
+  line-height: 1;
+  color: inherit;
+  cursor: inherit;
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+form.paypal-image input[type=image] {
+  width: 100%;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.label-container span.text-element {
+  display: inline-block;
+  font-size: 1em;
+}
+
+.bg-full-screen-container,
+.bg-full-screen-container video.full-screen-video,
+.bg-content-size-container,
+.bg-content-size-container video.content-size-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg-full-screen-container,
+.bg-content-size-container {
+  position: fixed;
+  z-index: -100;
+}
+
+video.full-screen-video,
+video.content-size-video {
+  z-index: -1;
+  background-color: transparent;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.bg-content-size-container {
+  position: relative;
+  display: block;
+  margin: 0;
+  min-height: 100px;
+}
+
+label.checkbox > [type=checkbox],
+label.radio > [type=radio] {
+  margin-right: 0.5rem;
+}
+
+.container.sd-four-cols,
+.container.sd-three-cols,
+.container.sd-two-cols {
+  display: grid;
+  padding: 0.75rem;
+  grid-column-gap: 1.5rem;
+}
+
+.container.sd-two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container.sd-three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container.sd-four-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
